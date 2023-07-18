@@ -8,7 +8,7 @@ you_ponto = 0
 pc_ponto = 0
 empates = 0
 
-perder = ['Você é FRACO assim mesmo ou tá de bricadeira?',
+perder = ['\033[35mVocê é FRACO assim mesmo ou tá de bricadeira?',
           'Por favor chame alguém que SAIBA JOGAR.',
           'Só não vai CHORAR ai.',
           'Voce é mesmo um PERDEDOR.',
@@ -21,7 +21,7 @@ ganhar = ['Você ganhou dessa vez, parabéns.',
           'Esta rodada foi sua, bem merecido.',
           'Ok, você ganhou essa partida.'
           'Essa batalha você levou a vitória, parabens.'
-          'Essa admito, vacilei, a vitória é sua.']
+          'Essa admito, vacilei, a vitória é sua.\033[m']
 
 
 def you():
